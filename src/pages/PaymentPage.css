@@ -1,0 +1,58 @@
+/* PaymentPage.css */
+
+.payment-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .payment-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .PaymentForm-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-row {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .PaymentForm-group label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  .PaymentForm-group input,
+  .PaymentForm-group select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .PaymentForm-group select {
+    cursor: pointer;
+  }
+  
+  .PaymentButton {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .PaymentButton:hover {
+    background-color: #0056b3;
+  }
+  
